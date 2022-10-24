@@ -1,7 +1,7 @@
 # MechaCar Statistical Analysis
 
 ## Linear Regression to Predict MPG
-![MPG Linear regression](mpg_lin_regress.png?raw=true "Title")
+![MPG Linear regression](images/mpg_lin_regress.png?raw=true "Title")
 
 ### Coefficients That Provided A Non-Random Amount of Variance
 - Vehicle Length
@@ -16,22 +16,22 @@ The r-squared value is 0.71 and the p-value is 5.35e-11. Any r-squared value gre
 ## Summary Statistics on Suspension Coils
 
 ### Total Summary
-![total summary](total_summary.png?raw=true "Title")
+![total summary](images/total_summary.png?raw=true "Title")
 The current manufacturing data in total meets the design specification of suspension coil variance not exceeding 100 PSI because the PSI variance in total is 62.29, which is less than 100.
 
 ### Lot Summary
-![lot summary](lot_summary.png?raw=true "Title")
+![lot summary](images/lot_summary.png?raw=true "Title")
 The current manufacturing data for Lot 1 and Lot 2 meets the design specification of suspension coil variance not exceeding 100 PSI because the PSI variance for those lots are 0.98 and 7.47, respectively. The current manufacturing data for Lot 3 does not meet the design specification because its PSI variance is 170.27
 
 
 ## T-Tests on Suspension Coils
 
 ### T-Test Across All Lots
-![all lot t-test](all_lot_t_test.png?raw=true "Title")
+![all lot t-test](images/all_lot_t_test.png?raw=true "Title")
 As shown in the screen shot above, the calculated p-value (0.06) is larger than our significance level (0.05). This means that we do not have sufficient evidence to reject our null hypothesis, and therefore we fail to reject our null hypothesis. This means that PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch. 
 
 ### T-Test Across Individual Lots
-![individual lot t-tests](individual_lot_t_tests.png?raw=true "Title")
+![individual lot t-tests](images/individual_lot_t_tests.png?raw=true "Title")
 As shown in the screen shot above, the calculated p-value for lot 1 was 1, lot 2 was 0.61, and for lot 3 was 0.04. The p-values for lot 1 and lot 2 were larger than our significance level (0.05) which means that the PSI for these manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The p-vallue for lot 3 was not larger than our significance level, meaning that the PSI at that lot is not statistically different than the population mean of 1,500 pounds per square inch.
 
 ## Study Design: MechaCar vs Competition
